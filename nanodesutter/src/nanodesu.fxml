@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="300.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="fx.Controller">
+  <children>
+    <Button id="RequestTokenButton" fx:id="requestTokenButton" layoutX="14.0" layoutY="23.0" mnemonicParsing="false" onAction="#onRequestTokenButtonClicked" text="OAuth認証" />
+    <TextArea id="Tweet" fx:id="tweet" layoutX="55.0" layoutY="142.0" prefWidth="200.0" wrapText="true" />
+    <Button id="TweetButton" fx:id="tweetButton" layoutX="55.0" layoutY="308.0" mnemonicParsing="false" onAction="#onTweetButtonClicked" text="ついーと" />
+    <Button id="NanodesuButton" fx:id="nanodesuButton" layoutX="168.0" layoutY="308.0" mnemonicParsing="false" onAction="#onNanodesuButtonClicked" text="なのです！" />
+    <TextField fx:id="pin" layoutX="101.0" layoutY="23.0" prefWidth="185.0" />
+    <Label id="infomation" fx:id="information" layoutX="14.0" layoutY="78.0" prefHeight="28.0" prefWidth="272.0" text="Label" />
+    <Button fx:id="okButton" layoutX="245.0" layoutY="41.0" mnemonicParsing="false" onAction="#onOkButtonClicked" text="OK" />
+  </children>
+</AnchorPane>
